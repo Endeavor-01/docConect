@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  styles the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./IMAGES/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: right;
+    padding: 10px;
+    
+    overflow-x:hidden;
+}
+
+
+i {
+    color: #141414;
+    margin-right: 5%;
+    margin-left: 90%;
+    margin-bottom: 50px;
+}
+
+/* main content */
+.form, .forms {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+section {
+    background-color: #0988c7;
+    padding: 30px;
+    margin: 30px;
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+section a {
+    display: inline-block;
+    margin-top: 400px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #9febf1;
+    color: #090808;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section a:hover {
+    background-color: #48e60e;
+}
+
+.docc {
+    font-size: 58px;
+    position: relative;
+    margin-right: 90%;
+    right: -2%;
+    bottom: 750px;
+}
+
+.doc {
+    text-transform: black;
+    font-size: 20px;
+    margin-right: 62%;
+    position: relative;
+    right: 1%;
+    bottom: 750px;
+}
+.footer{
+    background:transparent;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(17, 16, 16);
+    font-size:1em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:rgb(10, 10, 10);
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#070707;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:3% 1%;
+   
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:3% 3%;
+    }
+    }

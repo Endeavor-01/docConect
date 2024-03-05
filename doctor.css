@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(/dlogin.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh; /* Ensure the background covers the entire viewport */
+    display: flex;
+    justify-content: right;
+    margin-right: 300px;;
+    align-items: center;
+}
+
+.transparent login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    padding: 20px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle lift */
+    width: 300px; /* Adjust the width as needed */
+}
+
+.lo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    padding: 7px 5px 7px 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+
+
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    width: 230px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+button:hover {
+    background-color: #03fc0c;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: #111214;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

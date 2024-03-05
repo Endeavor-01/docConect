@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(/IMAGES/Dsignup.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+      /* Optional: Set background color as a fallback */
+    background-color: #ebf0f4;
+              /* Set additional styles as needed */
+    margin: 0; /* Remove default margin */
+      font-family: 'Arial', sans-serif; /* Set font family */
+            }
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    margin-right: 50%;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+.group label {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.group input,
+.group textarea,
+.group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.group textarea {
+    resize: vertical;
+}
+
+.group select {
+    appearance: none;
+    padding-right: 30px;
+}
+
+.group i {
+    position: relative;
+    right: -630px;
+    top: 50%;
+    bottom: 20px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #151313;
+}
+
+.place {
+    margin-bottom: 20px;
+}
+
+.place input[type="radio"] {
+    margin-right: 5px;
+}
+
+.but {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button.submit {
+    background-color: #2897dc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.submit:hover {
+    background-color: #00fc32;
+}
+
+.but p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.but p a {
+    color: #200ae4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.but p a:hover {
+    text-decoration: underline;
+}
